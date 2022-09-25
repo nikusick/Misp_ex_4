@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.21)
-project(card_game)
+project(ex_4)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 
-add_executable(card_game main.cpp)
+add_executable(ex_4 main.cpp)
