@@ -6,6 +6,7 @@ int main() {
     int N, num;
     std::cin >> N;
     std::vector<int> nums;
+    nums.reserve(N);
     for (int i = 0; i < N; ++i) {
         std::cin >> num;
         nums.push_back(num);
